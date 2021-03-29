@@ -5,7 +5,7 @@
 ## 2. Clone config files from repository
 
 ```
-git https://gitlab.com/mihailangelov/dev-env/dotfiles ~/dotfiles
+git clone https://gitlab.com/mihailangelov/dev-env ~/dev-env
 ```
 
 
@@ -115,11 +115,11 @@ Or use ".p10k.zsh" from the repository bellow
 ## 10. Copy various config files to your home folder
 
 ```
-cp ~/dotfiles/.zprofile_macos ~/.zprofile
-cp ~/dotfiles/.zshrc_macos ~/.zshrc
-cp ~/dotfiles/.tmux.conf ~/.tmux.conf
-cp ~/dotfiles/.p10k.zsh ~/.p10k.zsh
-cp ~/dotfiles/.gitconfig ~/.gitconfig
+cp ~/dev-env/dotfiles/.zprofile_macos ~/.zprofile
+cp ~/dev-env/dotfiles/.zshrc_macos ~/.zshrc
+cp ~/dev-env/dotfiles/.tmux.conf ~/.tmux.conf
+cp ~/dev-env/dotfiles/.p10k.zsh ~/.p10k.zsh
+cp ~/dev-env/dotfiles/.gitconfig ~/.gitconfig
 ```
 
 ## 11. Install TPM (Tmux plugin manager).

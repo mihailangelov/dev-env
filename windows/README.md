@@ -101,7 +101,7 @@ Restart your terminal
 
 ## 10. Download glyph font for the "Powerlevel10k" and install it:
 
-[DroidSansMono Nerd Font](https://gitlab.com/mihailangelov/dev-env/p10k_fonts/Droid%20%Sans%20%Mono%20%Nerd%20%Font%20%Complete.otf)
+[DroidSansMono Nerd Font](https://gitlab.com/mihailangelov/dev-env/-/raw/master/p10k_fonts/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf)
 
 
 ## 11. Install "Powerlevel10k theme"
@@ -118,7 +118,7 @@ Or use ".p10k.zsh" from the repository bellow
 ## 12. Clone config files from repository
 
 ```
-git https://gitlab.com/mihailangelov/dev-env/dotfiles ~/dotfiles
+git clone https://gitlab.com/mihailangelov/dev-env ~/dev-env
 ```
 
 ## 13. Install python virtual environments
@@ -165,11 +165,11 @@ More info here [How To Use Virtual Environments for Python Projects](http://www.
 ## 14. Copy various config files to your home folder
 
 ```
-cp ~/dotfiles/.zprofile_wsl2 ~/.zprofile
-cp ~/dotfiles/.zshrc_wsl2 ~/.zshrc
-cp ~/dotfiles/.tmux.conf ~/.tmux.conf
-cp ~/dotfiles/.p10k.zsh ~/.p10k.zsh
-cp ~/dotfiles/.gitconfig ~/.gitconfig
+cp ~/dev-env/dotfiles/.zprofile_wsl2 ~/.zprofile
+cp ~/dev-env/dotfiles/.zshrc_wsl2 ~/.zshrc
+cp ~/dev-env/dotfiles/.tmux.conf ~/.tmux.conf
+cp ~/dev-env/dotfiles/.p10k.zsh ~/.p10k.zsh
+cp ~/dev-env/dotfiles/.gitconfig ~/.gitconfig
 ```
 
 ## 15. Install TPM (Tmux plugin manager).
